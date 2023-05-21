@@ -22,6 +22,13 @@ public class Categoria {
         this.nome = nome;
         this.descricao = descricao;
     }
+    
+    public Categoria(String nome, String descricao) {
+        this.id = id;
+        this.nome = nome;
+        this.descricao = descricao;
+    }
+
 
     public Long getId() {
         return id;
