@@ -33,6 +33,14 @@ public class Usuario {
         this.ultimoLogin = ultimoLogin;
         this.estado = true;
     }
+    
+     public Usuario(String nome, String senha, String usuario) {
+        this.id = id;
+        this.nome = nome;
+        this.senha = senha;
+        this.usuario = usuario;
+        id++;
+    }
 
   
 
