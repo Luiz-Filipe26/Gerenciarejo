@@ -31,6 +31,17 @@ public class Produto {
         this.usuario = usuario;
         this.dataHoraCriacao = dataHoraCriacao;
     }
+    
+    public Produto(String nomeProduto, String descricaoProduto, double preco, Integer quantidade, Categoria categoria, Usuario usuario) {
+        
+        this.nomeProduto = nomeProduto;
+        this.descricaoProduto = descricaoProduto;
+        this.preco = preco;
+        this.quantidade = quantidade;
+        this.categoria = categoria;
+        this.usuario = usuario;
+        
+    }
 
     public Long getId() {
         return id;
