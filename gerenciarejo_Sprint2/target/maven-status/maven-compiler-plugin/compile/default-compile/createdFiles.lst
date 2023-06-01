@@ -1,0 +1,13 @@
+conexao\ConexaoMysql.class
+classes\VendaDetalhes.class
+conexao\ConexaoPostgres.class
+classes\Venda.class
+conexao\Conexao.class
+classes\Categoria.class
+classes\PERFIL.class
+classes\Usuario.class
+classes\Produto.class
+persistencia\UsuarioDAO.class
+classes\Estado.class
+classes\Cliente.class
+Teste\UsuarioTeste.class
