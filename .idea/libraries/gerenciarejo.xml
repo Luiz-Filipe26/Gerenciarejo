@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="gerenciarejo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-security-crypto-5.3.10.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/protobuf-java-3.11.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-logging-1.2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
