@@ -1,0 +1,15 @@
+classes\ProdutoVOTest.class
+classes\CategoriaTest.class
+classes\UsuarioTest.class
+helper\ClienteHelperTest.class
+helper\CategoriaHelperTest.class
+helper\EstoqueHelperTest.class
+helper\SobreHelperTest.class
+classes\VendaDetalhesTest.class
+helper\ProdutoHelperTest.class
+classes\ProdutoTest.class
+classes\PedidoVOTest.class
+helper\PedidoHelperTest.class
+classes\ClienteTest.class
+classes\VendaTest.class
+helper\LimpaHelperTest.class
