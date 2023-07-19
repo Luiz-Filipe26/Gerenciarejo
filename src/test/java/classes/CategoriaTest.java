@@ -10,10 +10,11 @@ public class CategoriaTest {
         Categoria categoria1 = new Categoria(1L, "Nome", "Descrição");
         Categoria categoria2 = new Categoria(1L, "Nome", "Descrição");
         Categoria categoria3 = new Categoria(2L, "Outro Nome", "Outra Descrição");
-        Assertions.assertEquals(categoria1, categoria2);
-        Assertions.assertNotEquals(categoria1, categoria3);
+        Assertions.assertTrue(categoria1.equals(categoria1)); 
+        Assertions.assertTrue(categoria1.equals(categoria2));
+        Assertions.assertFalse(categoria1.equals(categoria3));
     }
-
+    
     @Test
     public void testCategoriaHashCode() {
         Categoria categoria1 = new Categoria(1L, "Nome", "Descrição");
