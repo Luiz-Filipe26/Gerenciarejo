@@ -22,9 +22,6 @@ public class ProdutoTest {
     public void testEquals() {
         Object obj = null;
         Produto produto = new Produto();
-        boolean expResult = false;
-        boolean result = produto.equals(obj);
-        assertEquals(expResult, result);
+        assertFalse(produto.equals(obj)); 
     }
-
 }
